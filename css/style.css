@@ -24,7 +24,7 @@ a:hover { color: #31a5e7;}
 .desc { position: relative; z-index: 1;}
 
 .section { overflow: hidden;}
-.section h1 { margin-bottom: 10px; line-height: 1.4; font-size: 40px; font-weight: 400;}
+.section h2 { margin-bottom: 10px; line-height: 1.4; font-size: 30px; font-weight: 400;}
 .section p { line-height: 20px;}
 
 .nav { float: right;}
@@ -70,12 +70,20 @@ a:hover { color: #31a5e7;}
 .two .two-content .two-cont3 p{line-height: 30px;}
 .two .two-content .two-cont3 a{position: relative;display: block;color: #ff6543;width: 157px;height: 46px;line-height: 46px; margin: 30px auto 0;border-radius: 15px;border: 1px solid #ff6543;}
 .two .two-content .two-cont3 a:hover{background-color: #ff6543;color: #ffffff;}
-.two-desc { width: 574px; margin: 0 auto; padding-top: 126px; text-align: center;}
+.two-desc { width: 574px; margin: 0 auto; padding-top: 145px; text-align: center;}
 .two-desc h1 {}
 .two-desc p {  color: #496478; }
 
-.three { background: #ff8fa5 url(../images/bg3-s.jpg) center 0 no-repeat;}
-.three-desc { padding-top: 40%; width: 400px;}
+.three {position: relative;overflow: hidden; background: url(../images/bg3.jpg) center 0 no-repeat;}
+.three .three-content {position: relative;overflow: hidden;}
+.three .three-content .three-cont1 {font-size: 16px;color: #666666;max-width: 1040px;margin: 0 auto;overflow: hidden;}
+.three .three-content .three-cont1 .three_contL{float: left;}
+.three .three-content .three-cont1 .three_contR{float: right;}
+.three .three-content .three-cont1 .t_box {display: block;}
+.three .three-content .three-cont1 .t_box .box_title {display: block; float:left; width: 67px;height: 52px;text-align: center;line-height: 52px;border: 1px solid #496478;color: #496478;font-size: 36px;}
+.three .three-content .three-cont1 .t_box .box_cont {display: block;float: left;padding-left: 21px;width: 368px;}
+.three .three-content .three-cont1 .t_box .box_cont h3{font-size: 24px;color: #496478;margin-bottom: 6px;}
+
 
 .screen { background: url(../images/bg4-s.jpg) center 0 no-repeat;}
 .screen-desc { position: relative; width: 540px; padding-top: 100px; z-index: 1;}
@@ -151,5 +159,5 @@ a:hover { color: #31a5e7;}
 	.parameters-list li h2 { height: 100px; line-height: 100px;}
 }
 @media screen and (max-width:1440px) {
-	.three { background: url(../images/bg3-xs.jpg) center 0 no-repeat;}
+	.three { background: url(../images/bg3.jpg) center 0 no-repeat;}
 }
