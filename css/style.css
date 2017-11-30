@@ -8,6 +8,7 @@ a:hover { color: #31a5e7;}
 .line2 {position: relative; width: 130px; height: 1px; background-color: #13243a;}
 .mr-l27 {margin-left: 27px;}
 .mr-t30 {margin-top: 30px}
+.g-active {color: #31a5e7;}
 
 .clearfix:after { content: ""; display: table; clear: both;}
 
