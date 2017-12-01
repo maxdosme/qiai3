@@ -165,9 +165,11 @@ a:hover { color: #31a5e7;}
 .g-title {position: relative;display: block;overflow: hidden;text-align: center;margin: 80px 0;}
 .g-title h2{margin: 12px 0;font-size: 30px;color: #13243a;}
 .g-title p{margin-top: 20px;color: #666666;}
+.c-white {color: #fff!important;}
 
-/* 注册公司 */
-.zc1_cont {position:relative ;overflow: hidden;}
+
+	/* 注册公司 */
+.zc1_cont {position:relative ;overflow: hidden;margin: 50px 0;width: 100%;height: 950px;}
 .zc1_cont .two-content {position: relative;margin-top: 15px;}
 .zc1_cont .two-content .two-cont {position: relative; overflow: hidden; height: 250px;}
 .zc1_cont .two-content .two-cont .two-box{ position: relative; float: left; min-height: 1px; width: 380px; text-align: center;padding: 30px 0;cursor:pointer;}
@@ -196,10 +198,44 @@ a:hover { color: #31a5e7;}
 .zc1_cont .two-content .two-cont3 a{position: relative;display: block;color: #ff6543;width: 157px;height: 46px;line-height: 46px; margin: 30px auto 0;border-radius: 15px;border: 1px solid #ff6543;}
 .zc1_cont .two-content .two-cont3 a:hover{background-color: #ff6543;color: #ffffff;}
 
-.zc2_cont {position:relative ;overflow: hidden;}
+.zc2_cont {position:relative ;overflow: hidden;width: 100%;height: 950px;margin: 50px 0;background: url(../images/zc1_bg.jpg) center 0 no-repeat;}
+.zc2_cont .three-content {position: relative;overflow: hidden;}
+.zc2_cont .three-content .three-cont1 {font-size: 16px;color: #666666;max-width: 1040px;margin: 0 auto;overflow: hidden;}
+.zc2_cont .three-content .three-cont1 .three_contL{float: left;}
+.zc2_cont .three-content .three-cont1 .three_contR{float: right;}
+.zc2_cont .three-content .three-cont1 .t_box {position: relative;display: block;overflow: hidden;margin-top: 35px;}
+.zc2_cont .three-content .three-cont1 .t_box .box_title {display: block; float:left; width: 67px;height: 52px;text-align: center;line-height: 52px;border: 1px solid #496478;color: #496478;font-size: 36px;}
+.zc2_cont .three-content .three-cont1 .t_box .box_cont {display: block;float: left;padding-left: 21px;width: 368px;}
+.zc2_cont .three-content .three-cont1 .t_box .box_cont h3{font-size: 24px;color: #496478;margin-bottom: 6px;}
+.zc2_cont .three-content .three-cont1 .t_box .box_cont p{color: #666;font-size: 14px;}
+.zc2_cont .three-content .three-cont2	{position: relative;overflow: hidden;max-width: 1040px;margin: 50px auto 0;}
+.zc2_cont .three-content .three-cont2	.cont2_cont {position: relative;float: left;}
+.zc2_cont .three-content .three-cont2	.cont2_cont .title h3{font-size: 30px;color: #13243a;}
+.zc2_cont .three-content .three-cont2	.cont2_cont .title p{font-size: 14px;padding: 30px 0;color: #496478;}
+.zc2_cont .three-content .three-cont2	.cont2_cont .cont li{padding: 15px 0;font-size: 16px;}
+.zc2_cont .three-content .three-cont2	.cont2_img {position: relative;float: right;}
+
+.zc3_cont {position:relative ;overflow: hidden;width: 100%;height: 950px;margin: 50px 0;}
+.zc3_cont  .two-cont3 {position: relative;overflow: hidden;text-align: center; font-size: 16px; color: #13243a;margin-top: 30px;}
+.zc3_cont  .two-cont3 p{line-height: 30px;}
+.zc3_cont  .two-cont3 a{position: relative;display: block;color: #ff6543;width: 157px;height: 46px;line-height: 46px; margin: 30px auto 0;border-radius: 15px;border: 1px solid #ff6543;}
+.zc3_cont  .two-cont3 a:hover{background-color: #ff6543;color: #ffffff;}
+.zc3_cont img{width: 100%;}
+
+.zc4_cont {position:relative ;overflow: hidden;width: 100%;height: 950px;margin: 50px 0;background: url(../images/zc4_bg.jpg) center 0 no-repeat;}
+.zc4_cont .content {position:relative ;overflow: hidden;}
+.zc4_cont .content .content {position:relative ;overflow: hidden;}
+.zc4_cont .content .boxAll {position:relative ;overflow: hidden;}
+.zc4_cont .content .boxAll .box{display: block;float: left;width: 300px;text-align: center;margin: 0 39px;border: 1px solid #c4c4c4;border-radius: 15px;background-color: #fafafa;}
+.zc4_cont .content .boxAll .box img{margin-top: 30px;}
+.zc4_cont .content .boxAll .box h3{font-size: 18px;color: #f54a23;margin: 13px 0;}
+.zc4_cont .content .boxAll .box p{padding: 0 20px 30px;line-height: 1.8;text-align: left;}
+.zc4_cont .content .footer_cont {position: relative;overflow: hidden;text-align: center;margin: 80px 0 30px;}
+.zc4_cont .content .footer_cont h3{margin: 20px 0;font-size: 18px;color: #ffbc07;}
+.zc4_cont .content .footer_cont p{font-size: 16px;color: #fff;}
 
 /* 代理记帐 */
-.cw1_cont {position: relative;overflow: hidden;}
+.cw1_cont {position: relative;overflow: hidden;width: 100%;height: 950px;}
 .cw1_cont .img-bg{width: 100%;}
 .cw1_cont .hot_cont {position: relative;overflow: hidden;margin: 50px 0;}
 .cw1_cont .hot_cont .hot_boxAll {position: relative;overflow: hidden;}
