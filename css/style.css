@@ -294,3 +294,31 @@ a:hover { color: #31a5e7;}
 .sp_cont4 .five-content .cont2 {margin-top: 155px;text-align: right;padding-right: 660px;}
 .sp_cont4 .five-content .cont2 h3{font-size: 18px;color: #777;margin: 20px 0;}
 .sp_cont4 .five-content .cont2 li{font-size: 14px;color: #777;padding: 10px 0;}
+
+/* 关于我们 */
+.ab_cont1 {position: relative;overflow: hidden;margin-top: 50px;background: url(../images/cw4_bg.jpg) center 0 no-repeat;width: 100%;height: 950px;}
+.ab_cont1 .content {position: relative;overflow: hidden;}
+.ab_cont1 .content p{font-size: 16px;line-height: 2.0;color: #444;}
+.ab_cont1 .content .cont1 {position: relative;overflow: hidden;}
+.ab_cont1 .content .cont1 img{display: block;float: left;}
+.ab_cont1 .content .cont1 p{display: block;float: left;width: 760px;text-indent: 2em;padding: 0 20px;}
+.ab_cont1 .content .cont2 {display: block;clear: both;}
+.ab_cont1 .content .cont2 p{text-indent: 2em;}
+.ab_cont1 .content .cont3 {position: relative;overflow: hidden;margin: 50px 0;}
+
+.ab_cont2 {position: relative;overflow: hidden;margin-top: 50px;width: 100%;height: 950px;}
+.ab_cont2 .content {position: relative;overflow: hidden;}
+.ab_cont2 .content .box1{position: relative;overflow: hidden;}
+.ab_cont2 .content .box1 .boxImg{display: block;float: left;padding-left: 112px;}
+.ab_cont2 .content .box1 .boxText{position: relative;overflow: hidden;padding-left: 50px;}
+.ab_cont2 .content .box1 .boxText li{height: 70px;}
+.ab_cont2 .content .box1 .boxText h3{font-size: 18px;color: #3381e2;padding: 0 10px;overflow: hidden;}
+.ab_cont2 .content .box1 .boxText p{font-size: 14px;color: #666;padding: 3px 10px;overflow: hidden;}
+.ab_cont2 .content .box1 .boxText img{display: block;float: left;}
+.ab_cont2 .content .box2 {position: relative;overflow: hidden;}
+.ab_cont2 .content .box2 img{padding: 10px 112px;}
+.ab_cont2 .content .box2 .box2_text {padding-left: 112px;}
+.ab_cont2 .content .box2 .box2_text ul{float: left;}
+.ab_cont2 .content .box2 .box2_text ul:last-child{padding-left: 56px;}
+.ab_cont2 .content .box2 .box2_text span{color: #3381e2;}
+.ab_cont2 .content .box2 .box2_text li{font-size: 16px;color: #666;line-height: 35px;}
