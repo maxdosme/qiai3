@@ -8,6 +8,13 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">
+        !function(){
+            if(/phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone/i.test(navigator.userAgent.toLowerCase()) == true){
+                location.href = '//71a.com/mobile/';
+            }
+        }();
+	</script>
 	<!--百度统计-->
 	<script>
         var _hmt = _hmt || [];
@@ -234,35 +241,35 @@
 		<div class="footer-link">
 			<div class="center-wrap">
                 <div class="cont_left">
-					<form class="form-cont" action="userinfo_insert.php" method="post">
+					<form class="form-cont">
 						<div class="form-group">
 							<label class="">姓名：</label>
 							<span class="impor">*</span>
-							<input type="text" name="username" placeholder="请输入姓名" class="text_input">
+							<input type="text" placeholder="请输入姓名" class="text_input" id="username" value="">
 						</div>
 						<div class="form-group">
 							<label class="">性别：</label>
 							<div class="sex">
-								<input type="radio" name="radiobutton"><span>男</span>
-								<input type="radio" name="radiobutton"><span>女</span>
+								<input type="radio" value="男" name="sex1"><span>男</span>
+								<input type="radio" value="女" name="sex1"><span>女</span>
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="">电话：</label>
 							<span class="impor">*</span>
-							<input type="text" name="username" placeholder="请输入手机号" class="text_input">
+							<input type="text" placeholder="请输入手机号" class="text_input" id="phone">
 						</div>
 						<div class="form-group">
 							<label class="">服务：</label>
 							<div class="sex">
-								<input type="checkbox" name="checkbox1" value="checkbox"><span>注册公司</span>
-								<input type="checkbox" name="checkbox2" value="checkbox"><span>财务代理<br /><br /></span>
-								<input type="checkbox" name="checkbox3" value="checkbox"><span>办理资质</span>
-								<input type="checkbox" name="checkbox4" value="checkbox"><span>其他</span>
+								<input type="checkbox" value="checkbox"><span>注册公司</span>
+								<input type="checkbox" value="checkbox"><span>财务代理<br /><br /></span>
+								<input type="checkbox" value="checkbox"><span>办理资质</span>
+								<input type="checkbox" value="checkbox"><span>其他</span>
 							</div>
 						</div>
 						<div class="form-group">
-							<button class="submitBtn" type="submit">报价咨询</button>
+							<button class="submitBtn" id="submit">报价咨询</button>
 						</div>
 					</form>
 				</div>
@@ -314,7 +321,7 @@
 <script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
 <script>
-    (function() {var _53code = document.createElement("script");_53code.src = "//tb.53kf.com/code/code/10128903/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();
+    (function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/10128903/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();
 </script>
 <script type="text/javascript">
     $(function() {
