@@ -10,10 +10,10 @@
     echo "电话：".$phone."<br/>";
 
     //设置服务器的连接信息
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "testdb";
+    $servername = "hdm149690346.my3w.com";
+    $username = "hdm149690346";
+    $password = "maxdosme123";
+    $dbname = "hdm149690346_db";
 
     // 创建连接
     $conn = new mysqli($servername, $username, $password, $dbname);

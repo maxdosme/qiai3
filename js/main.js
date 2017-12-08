@@ -2,6 +2,16 @@
  * Created by BenTfu on 2017/11/24.
  */
 
+(function () {
+    var x = document.createElement("ins");
+    var a = document.createElement("a");
+    a.setAttribute("href","https://tb.53kf.com/code/client/10128903/1");
+    a.setAttribute("target","_blank");
+    x.setAttribute("class",'hot');
+    x.appendChild(a);
+    document.body.appendChild(x);
+})();
+
 $(document).ready(function () {
     $('#submit').click(function () {
         var username = $('#username').val();
