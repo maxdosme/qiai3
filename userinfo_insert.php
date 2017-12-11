@@ -2,12 +2,7 @@
 
 //  通过post获取页面提交数据信息
     $user_name = $_POST["xingming"];
-    $sex = $_POST["sex1"];
     $phone = $_POST["myphone"];
-
-    echo "用户：".$user_name."<br />";
-    echo "性别：".$sex."<br/>";
-    echo "电话：".$phone."<br/>";
 
     //设置服务器的连接信息
     $servername = "hdm149690346.my3w.com";
@@ -26,8 +21,8 @@
         printf("Error: %s\n", $conn->error);
     } else {}
 
-    $sql = "INSERT INTO user (name, sex, phone)
-        VALUES ('$user_name', '$sex', '$phone')";
+    $sql = "INSERT INTO user (name, phone)
+        VALUES ('$user_name', '$phone')";
 
     if ($conn->query($sql) === TRUE) {
         echo "新记录插入成功";

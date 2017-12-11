@@ -24,7 +24,7 @@
             printf("Error: %s\n", $conn->error);
         } else {}
 
-       $sql = "SELECT id,name,sex,phone FROM user";
+       $sql = "SELECT id,name,phone FROM user";
         $result = $conn->query($sql);
         if ($result) {
             if($result->num_rows>0){                                         //判断结果集中行的数目是否大于0
@@ -33,10 +33,9 @@
                         <div class="user_boxAll">
                             <div class="user_box">
                                 <ul>
-                                    <li class="">ID号:$row[0]</li>
+                                    <li>$row[0]</li>
                                     <li>客户名：$row[1]</li>
-                                    <li>性别：$row[2]</li>
-                                    <li>联系电话：$row[3]</li>
+                                    <li>联系电话：$row[2]</li>
                                     <hr />
                                 </ul>
                             </div>
